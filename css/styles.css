@@ -1,0 +1,45 @@
+/* Шрифт */
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Шапка сайта */
+
+.page-header {
+}
+
+/* Имя сайта */
+
+.site-name {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.color-name {
+  color: #2196f3;
+}
+
+/* Навигация сайта */
+
+.site-nav {
+  list-style-type: none;
+}
+
+.site-nav a {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
