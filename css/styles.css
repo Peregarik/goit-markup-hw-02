@@ -13,15 +13,8 @@
 
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
+  background-color: #ffffff;
   color: var(--primary-text-color);
-}
-
-.portfolio-background {
-  background-color: #eeeeee;
-}
-
-.portfolio-header {
-  background-color: #ececec;
 }
 
 /* Шапка сайта */
@@ -207,11 +200,6 @@ body {
 
 .projects-list {
   list-style: none;
-}
-
-.projects-item {
-  background-color: #ffffff;
-  width: 370px;
 }
 
 .projects-subtitle {
