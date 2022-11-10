@@ -247,6 +247,10 @@ body {
   list-style: none;
 }
 
+.projects-link {
+  text-decoration: none;
+}
+
 .projects-subtitle {
   font-weight: 700;
   font-size: 18px;
