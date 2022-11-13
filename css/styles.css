@@ -45,6 +45,7 @@ body {
 /* Имя сайта */
 
 .site-name-head {
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -95,6 +96,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--seondary-text-color);
 }
 
@@ -115,6 +117,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-white-color);
@@ -224,18 +227,14 @@ body {
 }
 
 .filtr-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.62;
   letter-spacing: 0.03em;
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   cursor: pointer;
-}
-
-.filtr-btn.active {
-  background-color: var(--accent-text-color);
-  color: var(--primary-white-color);
 }
 
 .filtr-btn:hover {
@@ -252,6 +251,7 @@ body {
 }
 
 .projects-subtitle {
+  letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -259,6 +259,7 @@ body {
 }
 
 .projects-text {
+  letter-spacing: 0.03em;
   font-size: 16px;
   line-height: 1.87;
   color: var(--seondary-text-color);
@@ -281,6 +282,7 @@ body {
 }
 
 .site-address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -293,6 +295,7 @@ body {
 
 .footer-cont-mail,
 .footer-cont-tel {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
